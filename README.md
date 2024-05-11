@@ -5,12 +5,12 @@ This repository presents Digital design for Low pass FIR filter. This has been i
 
 An FIR (Finite Impulse Response) filter is a type of digital filter used in signal processing. It operates by convolving a finite-length input signal with a series of coefficients, which are typically called the filter taps. These coefficients determine how the input signal is weighted and combined to produce the output signal.      FIR filters are is widely used in different applications such as biomedical, communication and control due to its easily implementation, stability and best performance. Its simplicity makes it attractive for many applications where it is need to minimize computational requirements.
 
-# Direct architecture
+# FIR Direct architecture
 Digital filters are implemented using the basic building block elements of adders, multipliers, and shift registers. How these elements are arranged and interconnected defines a filter ’ s architecture. In general, a given filter can have multiple architectures that can be used to implement a common transfer function.
 
 ![Fig1m5182018](https://github.com/basemhesham/Digital-Design-of-FIR-Filter-Transposed-Structure/assets/136960296/f7b1c4b4-a9e6-4cdd-978c-9d3b693508fd)
 
-# Transposed architecture
+# FIR Transposed architecture
 Another baseline FIR architecture is called the transpose FIR, which is a variation of the direct architecture theme. An FIR, with an impulse response ℎ[𝑘]={ℎ_0  , ℎ_1  , . . . , ℎ_(𝑁−1)} can be implemented as the transpose architecture shown in the following Figure
 
 Comparing with the direct form we observe that the order of the filter coefficients is reversed, And the input reaches all the multipliers at the same time This is in contrast to the direct form structure where a given input sample reaches the multipliers at different clock cycles.
