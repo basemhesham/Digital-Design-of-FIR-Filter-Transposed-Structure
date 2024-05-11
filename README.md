@@ -1,5 +1,5 @@
 # Digital-Design-of-FIR-Filter-Transposed-Structure
-This repository presents Digital design for Low pass FIR filter. This has been implemented by using Verilog description language and has been simulated on VIVADO.
+This repository presents digital design for a low-pass FIR filter. Leveraging the filterDesigner tool in MATLAB, we meticulously crafted a 50th Order FIR Low Pass Filter utilizing the Hamming windowing method.then we extracted the filter coefficients and meticulously implemented the design using the Verilog description language. This design has undergone rigorous simulation on VIVADO to ensure its efficacy and accuracy.
 
 ## Introduction
 
